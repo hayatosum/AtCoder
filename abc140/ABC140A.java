@@ -1,7 +1,9 @@
+package abc140;
+
 import java.util.HashSet;
 import java.util.Scanner;
 
-public class Main {
+public class ABC140A {
 
     public static void main(String args[]) {
 
