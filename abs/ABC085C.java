@@ -1,6 +1,8 @@
+package abs;
+
 import java.util.Scanner;
 
-public class Main {
+public class ABC085C {
 
     public static void main(String args[]) {
 
