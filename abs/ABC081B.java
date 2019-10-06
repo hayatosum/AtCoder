@@ -1,8 +1,6 @@
 package abs;
 
-import java.util.ArrayList;
 import java.util.Scanner;
-import java.util.List;
 
 public class ABC081B {
 
@@ -10,23 +8,23 @@ public class ABC081B {
 
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
-        List<Integer> a = new ArrayList<>();
+        Integer[] a = new Integer[n];
         for (int i = 0; i < n; i++) {
-            a.add(sc.nextInt());
+            a[i] = sc.nextInt();
         }
 
         int result = 0;
-        int oddCount = 0;
-        int div = 2;
-        while (oddCount == 0) {
-            for (int target : a) {
-                if (0 < target % div) {
-                    oddCount++;
+        boolean isOdd = false;
+        while (!isOdd) {
+            for (int i = 0; i < n; i++) {
+                if (a[i] % 2 == 0) {
+                    a[i] /= 2;
+                } else {
+                    isOdd = true;
                 }
             }
-            if (oddCount == 0) {
+            if (!isOdd) {
                 result++;
-                div = div * 2;
             }
         }
 
