@@ -1,3 +1,5 @@
+package abc140;
+
 import java.util.Scanner;
 
 public class ABC143A {
