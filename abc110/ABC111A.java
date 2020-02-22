@@ -14,5 +14,7 @@ public class ABC111A {
         s = s.replace("x", "9");
 
         System.out.println(s);
+
+        sc.close();
     }
 }

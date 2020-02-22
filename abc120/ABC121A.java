@@ -15,5 +15,7 @@ public class ABC121A {
         int result = h * w - (blackH * w + blackW * h - blackH * blackW);
 
         System.out.println(result);
+
+        sc.close();
     }
 }

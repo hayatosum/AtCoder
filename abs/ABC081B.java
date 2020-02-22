@@ -29,5 +29,7 @@ public class ABC081B {
         }
 
         System.out.println(result);
+
+        sc.close();
     }
 }

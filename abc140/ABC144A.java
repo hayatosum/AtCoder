@@ -16,5 +16,7 @@ public class ABC144A {
         }
 
         System.out.println(result);
+
+        sc.close();
     }
 }

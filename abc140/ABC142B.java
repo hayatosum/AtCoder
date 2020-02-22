@@ -24,5 +24,7 @@ public class ABC142B {
         }
 
         System.out.println(result);
+
+        sc.close();
     }
 }

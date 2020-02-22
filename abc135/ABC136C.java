@@ -24,5 +24,7 @@ public class ABC136C {
         }
 
         System.out.println(result ? "Yes" : "No");
+
+        sc.close();
     }
 }

@@ -13,5 +13,7 @@ public class ABC128A {
         int result = (a * 3 + p) / 2;
 
         System.out.println(result);
+
+        sc.close();
     }
 }

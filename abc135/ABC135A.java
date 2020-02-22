@@ -15,5 +15,7 @@ public class ABC135A {
         } else {
             System.out.println("IMPOSSIBLE");
         }
+
+        sc.close();
     }
 }

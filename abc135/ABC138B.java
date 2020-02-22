@@ -14,5 +14,7 @@ public class ABC138B {
         }
 
         System.out.println(1 / result);
+
+        sc.close();
     }
 }

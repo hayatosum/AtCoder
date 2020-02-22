@@ -15,5 +15,7 @@ public class ABC043A {
         }
 
         System.out.println(result);
+
+        sc.close();
     }
 }

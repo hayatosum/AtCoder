@@ -36,5 +36,7 @@ public class ABC121B {
         }
 
         System.out.println(result);
+
+        sc.close();
     }
 }

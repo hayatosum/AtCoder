@@ -29,5 +29,7 @@ public class ABC140C {
         }
 
         System.out.println(result);
+
+        sc.close();
     }
 }

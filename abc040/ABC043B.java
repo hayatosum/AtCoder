@@ -23,5 +23,7 @@ public class ABC043B {
         }
 
         System.out.println(String.join("", result));
+
+        sc.close();
     }
 }

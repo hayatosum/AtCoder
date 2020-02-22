@@ -23,5 +23,7 @@ public class ABC123B {
         }
 
         System.out.println(result + onesPlace - 10);
+
+        sc.close();
     }
 }

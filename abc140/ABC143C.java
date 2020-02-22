@@ -20,5 +20,7 @@ public class ABC143C {
         }
 
         System.out.println(result);
+
+        sc.close();
     }
 }

@@ -26,5 +26,7 @@ public class ABC129C {
             result = Math.min(result, Math.abs(s1 - s2));
         }
         System.out.println(result);
+
+        sc.close();
     }
 }

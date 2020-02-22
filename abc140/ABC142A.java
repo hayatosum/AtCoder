@@ -15,5 +15,7 @@ public class ABC142A {
         Double result = (double)x / n;
 
         System.out.println(result);
+
+        sc.close();
     }
 }

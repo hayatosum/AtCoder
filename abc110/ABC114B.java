@@ -16,5 +16,7 @@ public class ABC114B {
         }
 
         System.out.println(min);
+
+        sc.close();
     }
 }

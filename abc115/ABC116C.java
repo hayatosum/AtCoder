@@ -33,5 +33,7 @@ public class ABC116C {
         }
 
         System.out.println(result);
+
+        sc.close();
     }
 }

@@ -15,5 +15,7 @@ public class ABC138A {
         } else {
             System.out.println("red");
         }
+
+        sc.close();
     }
 }

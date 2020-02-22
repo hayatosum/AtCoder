@@ -19,5 +19,7 @@ public class ABC049C {
         } else {
             System.out.println("NO");
         }
+
+        sc.close();
     }
 }

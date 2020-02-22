@@ -17,5 +17,7 @@ public class ABC047A {
         boolean result = arr[0] + arr[1] == arr[2];
 
         System.out.println(result ? "Yes" : "No");
+
+        sc.close();
     }
 }

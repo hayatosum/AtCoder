@@ -30,5 +30,7 @@ public class ABC086C {
         }
 
         System.out.println(result ? "Yes" : "No");
+
+        sc.close();
     }
 }

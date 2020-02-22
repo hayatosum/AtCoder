@@ -14,5 +14,7 @@ public class ABC133A {
         int result = Math.min(a * n, b);
 
         System.out.println(result);
+
+        sc.close();
     }
 }

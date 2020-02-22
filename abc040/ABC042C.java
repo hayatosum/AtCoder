@@ -58,5 +58,6 @@ public class ABC042C {
         }
 
         System.out.println(String.join("", result));
+        sc.close();
     }
 }

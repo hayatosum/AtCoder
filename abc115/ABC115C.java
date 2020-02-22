@@ -22,5 +22,7 @@ public class ABC115C {
         }
 
         System.out.println(min);
+
+        sc.close();
     }
 }

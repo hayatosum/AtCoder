@@ -14,5 +14,7 @@ public class ABC045A {
         int result = (a + b) * h / 2;
 
         System.out.println(result);
+
+        sc.close();
     }
 }

@@ -18,5 +18,7 @@ public class ABC046A {
         result.add(c);
 
         System.out.println(result.size());
+
+        sc.close();
     }
 }

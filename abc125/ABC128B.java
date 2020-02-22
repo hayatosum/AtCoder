@@ -24,5 +24,7 @@ public class ABC128B {
         }
 
         System.out.print(sb.toString());
+
+        sc.close();
     }
 }

@@ -16,5 +16,7 @@ public class ABC130C {
         int root = (w / 2.0 == (double) x && h / 2.0 == (double) y) ? 1 : 0;
 
         System.out.println(area + " " + root);
+
+        sc.close();
     }
 }

@@ -17,5 +17,7 @@ public class ABC085B {
         }
 
         System.out.println(new HashSet<>(a).size());
+
+        sc.close();
     }
 }

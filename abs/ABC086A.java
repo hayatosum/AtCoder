@@ -11,5 +11,7 @@ public class ABC086A {
         int b = sc.nextInt();
 
         System.out.println(a * b % 2 == 0 ? "Even" : "Odd");
+
+        sc.close();
     }
 }

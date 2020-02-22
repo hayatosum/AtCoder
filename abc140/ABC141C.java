@@ -22,5 +22,7 @@ public class ABC141C {
                 System.out.println("Yes");
             }
         }
+
+        sc.close();
     }
 }

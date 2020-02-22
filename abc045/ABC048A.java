@@ -12,5 +12,7 @@ public class ABC048A {
         String foot = sc.next();
 
         System.out.println("A" + s.substring(0,1) + "C");
+
+        sc.close();
     }
 }

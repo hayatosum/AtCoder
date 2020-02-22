@@ -13,5 +13,7 @@ public class PracticeA {
         String s = sc.next();
 
         System.out.println(a + b + c + " " + s);
+
+        sc.close();
     }
 }

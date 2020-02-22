@@ -31,5 +31,7 @@ public class ABC134C {
                 System.out.println(max[1]);
             }
         }
+
+        sc.close();
     }
 }

@@ -12,5 +12,7 @@ public class ABC049A {
         boolean result = "a".equals(c) || "i".equals(c) || "u".equals(c) || "e".equals(c) || "o".equals(c);
 
         System.out.println(result ? "vowel" : "consonant");
+
+        sc.close();
     }
 }

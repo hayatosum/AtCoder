@@ -21,5 +21,7 @@ public class ABC126A {
         }
 
         System.out.println(sb.toString());
+
+        sc.close();
     }
 }

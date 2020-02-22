@@ -25,5 +25,7 @@ public class ABC135B {
         }
 
         System.out.println(result == 2 || result == 0 ? "YES" : "NO");
+
+        sc.close();
     }
 }

@@ -14,5 +14,7 @@ public class ABC136A {
         int result = Math.max(c - (a - b), 0);
 
         System.out.println(result);
+
+        sc.close();
     }
 }

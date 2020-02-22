@@ -44,5 +44,7 @@ public class ABC133B {
         }
 
         System.out.println(result);
+
+        sc.close();
     }
 }

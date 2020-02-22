@@ -15,5 +15,7 @@ public class ABC114A {
         }
 
         System.out.println(result ? "YES" : "NO");
+
+        sc.close();
     }
 }

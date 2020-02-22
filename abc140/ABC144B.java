@@ -21,5 +21,7 @@ public class ABC144B {
         }
 
         System.out.println(result ? "Yes" : "No");
+
+        sc.close();
     }
 }

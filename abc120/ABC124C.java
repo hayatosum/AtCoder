@@ -36,5 +36,7 @@ public class ABC124C {
         }
 
         System.out.println(Math.min(front, back));
+
+        sc.close();
     }
 }

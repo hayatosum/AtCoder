@@ -14,5 +14,7 @@ public class ABC125A {
         int result = t / a * b;
 
         System.out.println(result);
+
+        sc.close();
     }
 }

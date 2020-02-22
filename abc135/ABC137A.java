@@ -11,5 +11,7 @@ public class ABC137A {
         int b = sc.nextInt();
 
         System.out.println(Math.max(Math.max(a + b, a - b), a * b));
+
+        sc.close();
     }
 }

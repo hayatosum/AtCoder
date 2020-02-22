@@ -11,5 +11,7 @@ public class ABC130A {
         int a = Integer.parseInt(sc.next());
 
         System.out.println(x < a ? 0 : 10);
+
+        sc.close();
     }
 }

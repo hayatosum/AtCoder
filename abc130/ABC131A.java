@@ -18,5 +18,7 @@ public class ABC131A {
         }
 
         System.out.println(isGood ? "Good" : "Bad");
+
+        sc.close();
     }
 }

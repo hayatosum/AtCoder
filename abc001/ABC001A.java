@@ -11,5 +11,7 @@ public class ABC001A {
         int ago = sc.nextInt();
 
         System.out.println(now - ago);
+
+        sc.close();
     }
 }

@@ -12,5 +12,7 @@ public class ABC134A {
         int result = 3 * r * r;
 
         System.out.println(result);
+
+        sc.close();
     }
 }

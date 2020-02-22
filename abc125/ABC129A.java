@@ -14,5 +14,7 @@ public class ABC129A {
         int result = Math.min(Math.min(p + q, q + r), p + r);
 
         System.out.println(result);
+
+        sc.close();
     }
 }

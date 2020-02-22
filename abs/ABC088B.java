@@ -28,5 +28,7 @@ public class ABC088B {
         }
 
         System.out.println(alice - bob);
+
+        sc.close();
     }
 }

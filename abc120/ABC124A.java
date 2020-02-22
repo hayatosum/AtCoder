@@ -16,5 +16,7 @@ public class ABC124A {
         int result = button[3] + button[2];
 
         System.out.println(result);
+
+        sc.close();
     }
 }

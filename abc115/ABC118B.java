@@ -40,5 +40,7 @@ public class ABC118B {
         }
 
         System.out.println(result);
+
+        sc.close();
     }
 }

@@ -25,5 +25,7 @@ public class ABC115B {
         }
 
         System.out.println(result);
+
+        sc.close();
     }
 }

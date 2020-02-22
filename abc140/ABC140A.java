@@ -22,5 +22,7 @@ public class ABC140A {
         }
 
         System.out.println(passwords.size());
+
+        sc.close();
     }
 }

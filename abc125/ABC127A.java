@@ -18,5 +18,7 @@ public class ABC127A {
         }
 
         System.out.println(result);
+
+        sc.close();
     }
 }

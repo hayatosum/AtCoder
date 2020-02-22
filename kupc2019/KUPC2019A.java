@@ -26,5 +26,7 @@ public class KUPC2019A {
         }
 
         System.out.println(result);
+
+        sc.close();
     }
 }

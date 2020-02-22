@@ -23,5 +23,7 @@ public class ABC132C {
         }
 
         System.out.println(result);
+
+        sc.close();
     }
 }

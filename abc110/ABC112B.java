@@ -24,5 +24,7 @@ public class ABC112B {
         }
 
         System.out.println(minCost > 1000 ? "TLE" : minCost);
+
+        sc.close();
     }
 }

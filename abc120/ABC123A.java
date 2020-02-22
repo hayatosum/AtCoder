@@ -24,5 +24,7 @@ public class ABC123A {
         }
 
         System.out.println(result ? "Yay!" : ":(");
+
+        sc.close();
     }
 }

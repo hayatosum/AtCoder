@@ -14,5 +14,7 @@ public class ABC134B {
         int result = n % range == 0 ? n / range : n / range + 1;
 
         System.out.println(result);
+
+        sc.close();
     }
 }

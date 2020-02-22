@@ -21,5 +21,7 @@ public class ABC127C {
         int result = r.peek() - l.peek() + 1;
 
         System.out.println(result < 0 ? 0 : result);
+
+        sc.close();
     }
 }

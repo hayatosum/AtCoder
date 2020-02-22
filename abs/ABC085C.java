@@ -25,5 +25,7 @@ public class ABC085C {
         if (flg) {
             System.out.println("-1 -1 -1");
         }
+
+        sc.close();
     }
 }

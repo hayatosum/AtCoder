@@ -22,5 +22,7 @@ public class ABC120B {
 
         Collections.sort(commonDivisor);
         System.out.println(commonDivisor.get(commonDivisor.size() - k));
+
+        sc.close();
     }
 }

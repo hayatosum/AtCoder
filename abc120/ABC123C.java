@@ -19,5 +19,7 @@ public class ABC123C {
         long result = n % train[0] == 0 ? n / train[0] + 4 : n / train[0] + 5;
 
         System.out.println(result);
+
+        sc.close();
     }
 }

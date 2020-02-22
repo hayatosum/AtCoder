@@ -20,5 +20,7 @@ public class ABC137B {
         }
 
         System.out.println(String.join(" ", result));
+
+        sc.close();
     }
 }

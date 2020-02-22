@@ -17,5 +17,7 @@ public class ABC042B {
 
         Arrays.sort(s);
         System.out.println(String.join("", s));
+
+        sc.close();
     }
 }

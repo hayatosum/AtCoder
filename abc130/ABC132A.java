@@ -16,5 +16,7 @@ public class ABC132A {
         boolean result = arrS[0].equals(arrS[1]) && arrS[2].equals(arrS[3]) && !arrS[0].equals(arrS[2]);
 
         System.out.println(result ? "Yes" : "No");
+
+        sc.close();
     }
 }

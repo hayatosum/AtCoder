@@ -23,5 +23,7 @@ public class ABC142C {
         }
 
         System.out.println(String.join(" ", result));
+
+        sc.close();
     }
 }

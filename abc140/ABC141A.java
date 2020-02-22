@@ -19,5 +19,7 @@ public class ABC141A {
             System.out.println("Sunny");
 
         }
+
+        sc.close();
     }
 }

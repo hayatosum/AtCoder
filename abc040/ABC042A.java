@@ -17,5 +17,7 @@ public class ABC042A {
         boolean result = abc[0] == 5 && abc[1] == 5 && abc[2] == 7;
 
         System.out.println(result ? "YES" : "NO");
+
+        sc.close();
     }
 }

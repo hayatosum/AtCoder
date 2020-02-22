@@ -20,5 +20,7 @@ public class ABC141B {
         }
 
         System.out.println(judge ? "Yes" : "No");
+
+        sc.close();
     }
 }

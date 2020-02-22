@@ -20,5 +20,7 @@ public class ABC001B {
             result = String.format("%02d", m  / 100);
         }
         System.out.println(result);
+
+        sc.close();
     }
 }

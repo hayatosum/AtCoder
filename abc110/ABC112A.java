@@ -17,5 +17,7 @@ public class ABC112A {
             int b = Integer.parseInt(sc.next());
             System.out.println(a + b);
         }
+
+        sc.close();
     }
 }

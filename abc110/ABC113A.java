@@ -13,5 +13,7 @@ public class ABC113A {
         int result = x + y / 2;
 
         System.out.println(result);
+
+        sc.close();
     }
 }

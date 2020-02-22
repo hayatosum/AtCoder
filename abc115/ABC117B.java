@@ -23,5 +23,7 @@ public class ABC117B {
         boolean result = sum - l[n - 1] > l[n - 1];
 
         System.out.println(result ? "Yes" : "No");
+
+        sc.close();
     }
 }
