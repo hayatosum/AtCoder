@@ -6,22 +6,20 @@ public class ABC126A {
 
     public static void main(String args[]) {
 
+        // 入力
         Scanner sc = new Scanner(System.in);
-        int n = Integer.parseInt(sc.next());
-        int k = Integer.parseInt(sc.next());
-        String[] s = sc.next().split("");
+        Integer n = Integer.parseInt(sc.next());
+        Integer k = Integer.parseInt(sc.next());
+        String s = sc.next();
 
-        StringBuilder sb = new StringBuilder();
-        for (int i = 0; i < s.length; i++) {
-            if (i == k - 1) {
-                sb.append(s[i].toLowerCase());
-            } else {
-                sb.append(s[i]);
-            }
+        // 主処理
+        String result = "";
+        for (int i = 0; i < n; i++) {
+            result += (i == k - 1) ? String.valueOf(s.charAt(i)).toLowerCase() : s.charAt(i);
         }
 
-        System.out.println(sb.toString());
-
+        // 出力
+        System.out.println(result);
         sc.close();
     }
 }

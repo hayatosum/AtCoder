@@ -7,17 +7,21 @@ public class ABC042B {
 
     public static void main(String args[]) {
 
+        // 入力
         Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
-        int l = sc.nextInt();
+        Integer n = Integer.parseInt(sc.next());
+        Integer.parseInt(sc.next()); // 未使用となる変数l
         String[] s = new String[n];
         for (int i = 0; i < n; i++) {
             s[i] = sc.next();
         }
 
+        // 主処理
         Arrays.sort(s);
-        System.out.println(String.join("", s));
+        String result = String.join("", s);
 
+        // 出力
+        System.out.println(result);
         sc.close();
     }
 }

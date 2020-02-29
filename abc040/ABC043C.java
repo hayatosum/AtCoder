@@ -35,5 +35,6 @@ public class ABC043C {
 
         System.out.println("sum:" + sum + " ave:" + ave);
         System.out.println(result);
+        sc.close();
     }
 }

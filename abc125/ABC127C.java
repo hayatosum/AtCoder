@@ -1,27 +1,34 @@
 package abc125;
 
-import java.util.Comparator;
-import java.util.PriorityQueue;
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class ABC127C {
 
     public static void main(String args[]) {
 
+        // 入力
         Scanner sc = new Scanner(System.in);
-        int n = Integer.parseInt(sc.next());
-        int m = Integer.parseInt(sc.next());
-        PriorityQueue<Integer> l = new PriorityQueue<>(Comparator.reverseOrder());
-        PriorityQueue<Integer> r = new PriorityQueue<>();
+        Integer n = Integer.parseInt(sc.next());
+        Integer m = Integer.parseInt(sc.next());
+        Integer[] l = new Integer[m];
+        Integer[] r = new Integer[m];
         for (int i = 0; i < m; i++) {
-            l.add(Integer.parseInt(sc.next()));
-            r.add(Integer.parseInt(sc.next()));
+            l[i] = Integer.parseInt(sc.next());
+            r[i] = Integer.parseInt(sc.next());
         }
 
-        int result = r.peek() - l.peek() + 1;
+        // 主処理
+        Arrays.sort(l);
+        Arrays.sort(r);
 
-        System.out.println(result < 0 ? 0 : result);
+        int min = l[m - 1];
+        int max = r[0];
 
+        int result = Math.max(Math.min(max - min + 1, n), 0);
+
+        // 出力
+        System.out.println(result);
         sc.close();
     }
 }

@@ -7,11 +7,11 @@ public class ABC048A {
     public static void main(String args[]) {
 
         Scanner sc = new Scanner(System.in);
-        String hed = sc.next();
+        sc.next(); // 未使用となる入力値"AtCoder"
         String s = sc.next();
-        String foot = sc.next();
+        sc.next(); // 未使用となる入力値"Contest"
 
-        System.out.println("A" + s.substring(0,1) + "C");
+        System.out.println("A" + s.charAt(0) + "C");
 
         sc.close();
     }
